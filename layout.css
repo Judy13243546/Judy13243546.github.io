@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: auto;
+}
+
+.left-right {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.top-down {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}

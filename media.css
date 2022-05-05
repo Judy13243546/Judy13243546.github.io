@@ -1,0 +1,29 @@
+.src-01 {
+    width: 1100px;
+    height: 660px;
+    margin-top: 33px;
+    margin-bottom: 99px;
+    filter: saturate(0.5);
+    align-self: center;
+}
+
+.src-02 {
+    height: 300px;
+    margin-top: 33px;
+    margin-bottom: 99px;
+    align-self: center;
+    width: 46%;
+}
+
+.img-01 {
+    height: 599px;
+    margin-top: -155px;
+    margin-bottom: 89px;
+    justify-content: flex-end;
+}
+.img-02 {
+    height: 411px;
+    margin-top: -155px;
+    margin-bottom: 89px;
+    justify-content: flex-end;
+}
