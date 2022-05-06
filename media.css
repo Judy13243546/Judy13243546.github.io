@@ -28,7 +28,7 @@
     margin-top: -155px;
     margin-bottom: 89px;
     justify-content: flex-end;
-    -webkit-mask-image: radial-gradient(black 50%,transparent 90%);
+    -webkit-mask-image: radial-gradient(black 50%, transparent 90%);
 }
 .img-02 {
     height: 411px;
