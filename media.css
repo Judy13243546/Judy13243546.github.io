@@ -23,6 +23,15 @@
     height: 135px;
 }
 
+.src-04 {
+  
+    width: 88vw;
+    height: 66vw;
+    max-width: 100vh;
+    max-height: 75vh;
+   
+}
+
 .img-01 {
     height: 599px;
     margin-top: -155px;

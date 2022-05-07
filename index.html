@@ -5,10 +5,25 @@
   <link rel="stylesheet" href="media.css" />
   <link rel="stylesheet" href="layout.css" />
   <link rel="stylesheet" href="font.css" />
-
+  <script>
+    function hideOverlay(){
+      document.getElementById("overlay").style.display="none";
+      document.getElementById("player").src=null;
+    }
+    function showOverlay(src){
+      document.getElementById("overlay").style.display="flex";
+      document.getElementById("player").src=src;
+    }
+  </script>
 </head>
 
 <body>
+  <div class="overlay" id="overlay" onclick="hideOverlay()" >
+    <iframe id="player" class="src-04" 
+          scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+    </iframe>
+  </div>
+ 
   <div class="body">
     <p>Test</p>
     <h1>Judy Zhu</h1>
@@ -68,29 +83,29 @@
 
     <h2>WATCH MORE >>></h2>
     <div class="left-right01">
-      <div class="top-down01">
-        <iframe class="src-03"
+      <div class="top-down01" onclick="showOverlay('https://player.bilibili.com/player.html?aid=718768030&bvid=BV1sQ4y1Q7LU&cid=431325969&page=1')">
+        <img alt="" class="src-03" src="img/video img-01.webp" /> 
+        <!-- <iframe class="src-01"
           src="https://player.bilibili.com/player.html?aid=718768030&bvid=BV1sQ4y1Q7LU&cid=431325969&page=1"
           scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-        </iframe>
+        </iframe> -->
         <p3>《天地劫》-【飞鸟魂渡】PV</p3>
         <p4>宣传片 - 游戏</p4>
       </div>
-      <div class="top-down01">
-        <iframe class="src-03"
+      <div class="top-down01" onclick="showOverlay('https://player.xinpianchang.com/?aid=10870544&amp;mid=Rd0Nq7M3xr4O2Vjy&amp;appKey=61a2f329348b3bf77&amp;apiBackend=https://mod-api.xinpianchang.com&amp;passportUrl=https://passport.xinpianchang.com&amp;logBackend=https://log.xpccdn.com')">
+        <img alt="" class="src-03" src="img/video img-02.jpg" /> 
+        <!-- <iframe class="src-03"
           src="https://player.xinpianchang.com/?aid=10870544&amp;mid=Rd0Nq7M3xr4O2Vjy&amp;appKey=61a2f329348b3bf77&amp;apiBackend=https://mod-api.xinpianchang.com&amp;passportUrl=https://passport.xinpianchang.com&amp;logBackend=https://log.xpccdn.com"
           allowfullscreen="true" style="border: none;">
-        </iframe>
+        </iframe> -->
         <p3>华为 - 儿童手表「4X」</p3>
         <p4>广告 - 手机数码</p4>
       </div>
       <div class="top-down01">
         <iframe class="src-03"
-          src="https://player.xinpianchang.com/?aid=10618733&amp;mid=5DF1DFF466798&amp;appKey=61a2f329348b3bf77&amp;apiBackend=https://mod-api.xinpianchang.com&amp;passportUrl=https://passport.xinpianchang.com&amp;logBackend=https://log.xpccdn.com"
-          allowfullscreen="true" style="border: none;">
-        </iframe>
-        <p3>德芙DOVE 小清新系列</p3>
-        <p4>广告 - 快消系列</p4>
+        src="https://player.xinpianchang.com/?aid=10615838&amp;mid=5DEE0F43C2E01&amp;appKey=61a2f329348b3bf77&amp;apiBackend=https://mod-api.xinpianchang.com&amp;passportUrl=https://passport.xinpianchang.com&amp;logBackend=https://log.xpccdn.com" allowfullscreen="true" style="border: none;"></iframe>
+        <p3>麦当劳 - 川辣双鸡堡</p3>
+        <p4>广告 - 餐饮食品</p4>
       </div>
       <div class="top-down01">
         <iframe class="src-03"
@@ -104,10 +119,9 @@
 
     <div class="left-right01">
       <div class="top-down01">
-        <iframe class="src-03"
-          src="https://player.xinpianchang.com/?aid=10691434&amp;mid=5E6367575668B&amp;appKey=61a2f329348b3bf77&amp;apiBackend=https://mod-api.xinpianchang.com&amp;passportUrl=https://passport.xinpianchang.com&amp;logBackend=https://log.xpccdn.com"
-          allowfullscreen="true" style="border: none;"></iframe>
-        <p3>雷克萨斯 - 庭院屏风篇</p3>
+        <iframe  class="src-03"
+        src="https://player.xinpianchang.com/?aid=10615859&amp;mid=5DEE117371EA0&amp;appKey=61a2f329348b3bf77&amp;apiBackend=https://mod-api.xinpianchang.com&amp;passportUrl=https://passport.xinpianchang.com&amp;logBackend=https://log.xpccdn.com" allowfullscreen="true" style="border: none;"></iframe>
+        <p3>VW - 大众帕萨特</p3>
         <p4>广告 - 汽车</p4>
       </div>
       <div class="top-down01">
