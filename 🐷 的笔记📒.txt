@@ -1,0 +1,25 @@
+元素是指：<div>就是div元素（element） 
+这句话中<a class="center left" href="www.google.com">,class是属性名，center left是属性值.
+选择器中.后面的就是class name，没有点的是tag name，#后面的是ID。比如连着写就是同时满足的意思。，是或者的意思:是附加条件的意思（后面不能随便加）,空格就是什么里面的什么，比如h1 h2就是h1里的h2.
+style的三种方式：A：style属性，B：style元素，C：link到另一个文件
+写成什么样不决定计算机怎么解释，而是写在哪里，比如：同一句话写在style里就是style，放在外面就会被直接显示出来.
+屏幕长宽：2560px*1440px
+常用长度单位：1px=一个点；百分数=父亲盒子的百分比；1vw=1%页面宽度，1vh=1%页面高度
+记得找不到就搜索🔍，：Com+F
+两个方向居中：justify-content:center（控制物品在盒子的flow方向上的排列）如果盒子是左右排列就是左右居中，如果盒子是上下排列就是上下居中。
+            align-items：center（跟盒子排列方向有关的居中）如果盒子是上下排列就是左右居中，如果盒子是左右排列就是上下居中。
+            🌟 如果要让盒子居中，要写以上两个方向的居中！
+            align-self：center（盒子里某个物品的居中）如果盒子是上下排列就是左右居中，如果盒子是左右排列就是上下居中。
+margin：盒子边界离他外面周围元素的距离。
+border: 盒子的边界如何显示，border有：宽度，样式（实线solid/虚线dashed之类），颜色，这三个都是空格隔开。
+padding: （盒子的属性）盒子的边界离内容的距离。
+class的命名规则：  可以有字母/数字/-/_/组成(要以字母开头！)
+最小宽度：min-width，可以设置最小宽度，最小这么宽。
+span的默认行为是:修饰所有文字相关的东西。color code前面要加#。
+&。。。；代表一个字符，比如想强制加空格就可以写&nbsp; （这就代表会强制加一个空格）
+hover:鼠标悬停在上面
+cursor: pointer;光标变成小手手👋
+aspect-ratio:16/9
+position:absolute，位子不按照盒子的顺序排，按照相对他外面第一层position relative的盒子，position relative对盒子本身没影响，影响里面的absolute的盒子，position: fixed;固定位置
+opacity:不透明度（范围0-1，越大越不透明）
+border-radius:边框变成圆角矩形

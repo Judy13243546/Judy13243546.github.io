@@ -41,11 +41,21 @@ body {
   width: 40%;
   box-shadow: 0 1px 3px #aaa;
   overflow: hidden;
-  /* border: 1px solid gray; */
+  cursor: pointer;
+}
+
+.top-down01:hover {
+  background-color: #ddd;
+  /* outline: 1px solid #4c8bf5; */
+  outline-offset: 3px;
+}
+
+.left-right01 img:hover {
+  opacity: .8;
 }
 
 .overlay {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   position: fixed;

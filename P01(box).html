@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Page Title</title>
+</head>
+
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-down01 {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background-color: rgb(213, 212, 212);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-down02 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(109, 106, 106);
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .left-right {
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 800px;
+    height: 400px;
+  }
+
+  .a03 {
+    display: flex;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+
+  .a04 {
+    display: flex;
+    /* margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 35px;
+  margin-bottom: 40px; */
+    font-size: large;
+    /* width: 200px;
+    height: 200px; */
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  .right {
+    align-self: flex-end;
+  }
+
+  .button {
+    padding: .7em;
+    background-color:rgb(255, 127, 246);
+    border: 2px cornsilk solid;
+    min-width: 20px;
+  }
+
+</style>
+
+<body>
+  <div class="container">
+    <div class="top-down01">
+      <div class="a02 button" >1</div>
+      <div class="a02 button" >2</div>
+    </div>
+    <div class="left-right">
+      <div class="top-down02">
+        <div class="a03 button right">ok</div>
+        <div class="a03 button">cancel this line</div>
+        <div class="a03 button">back</div>
+      </div>
+      <div class="a04 button">times up</div>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
